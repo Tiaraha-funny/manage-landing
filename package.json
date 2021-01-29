@@ -1,0 +1,21 @@
+{
+  "name": "manage-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss -o webroot/css",
+    "scss:watch": "npm run scss && node-sass scss -w -o webroot/css",
+    "start": "npm run scss:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiaraha-funny/manage-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiaraha-funny/manage-landing/issues"
+  },
+  "homepage": "https://github.com/Tiaraha-funny/manage-landing#readme"
+}
