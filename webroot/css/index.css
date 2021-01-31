@@ -58,8 +58,7 @@ body {
   font-family: "Be Vietnam";
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  background-color: #fafafa; }
+  padding: 0; }
 
 h1 {
   font-size: 45px; }
@@ -151,7 +150,8 @@ footer {
 @media (min-width: 1000px) {
   .headings {
     background-position-x: 510px;
-    background-position-y: -176px;
+    background-position-y: -176px; }
+  .header {
     margin-left: 100px; } }
 
 .navigation__lists {
@@ -191,6 +191,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: transparent; }
+  .navigation__start--button {
+    margin-right: 100px; }
   .dropdown__menu,
   .dropdown__close--menu {
     display: none; } }
@@ -217,9 +219,12 @@ footer {
     flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 100px; }
+  .main__feature {
+    margin-right: 80px; }
   .main__headings--products {
     text-align: start;
-    align-items: flex-start; }
+    align-items: flex-start;
+    margin-left: 100px; }
   .main__heading--description, .products__button {
     margin: 0;
     text-align: start;
@@ -283,13 +288,14 @@ footer {
   .manage__heading {
     margin-top: 29px;
     text-align: start;
-    max-width: 500px; }
+    max-width: 500px;
+    margin-left: -2px; }
   .manage__heading h2 {
     width: 400px; }
   .manage__description {
     margin: 0; }
   .manage__lists {
-    margin-right: 70px; }
+    margin-right: 80px; }
   .manage__lists--items p {
     margin-left: 60px; } }
 
@@ -418,7 +424,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding-left: 100px;
-    padding-right: 70px; }
+    padding-right: 80px; }
   .simplification__header {
     max-width: 500px;
     text-align: start; } }
@@ -487,8 +493,10 @@ footer {
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 20px;
     padding-right: 70px; }
   .footer__headings {
     display: flex;
-    flex-direction: column-reverse; } }
+    flex-direction: column-reverse; }
+  .footer__subscribe {
+    margin-right: -100px; } }

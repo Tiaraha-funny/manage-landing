@@ -74,12 +74,16 @@
         flex-direction: row-reverse;
         justify-content: space-around;
         align-items: center;
-        padding-left: 100px;
+        padding-left: 20px;
         padding-right: 70px;
     }
 
     .footer__headings {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .footer__subscribe {
+        margin-right: -100px;
     }
 }
