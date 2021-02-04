@@ -385,22 +385,28 @@ footer {
     text-align: center; }
   .information__headings {
     margin-bottom: 30px; }
-  .more__information--container {
+  .more__info--lists {
+    overflow-x: scroll;
+    overflow-y: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; }
+  .more__information--container {
     align-items: center;
-    width: 50%;
+    width: 90%; }
+  .more__info--lists:hover ::-webkit-scrollbar {
+    display: block;
     overflow-x: scroll;
-    overflow-y: none;
-    padding-top: 100px; }
+    overflow-y: hidden; }
+  ::-webkit-scrollbar {
+    display: none; }
   .more__information--container li {
     background-color: #f6f4f4;
-    width: 500px;
     margin-right: 20px;
-    height: 300px; }
-  .more__information--container li img {
-    margin-top: -77px; } }
+    padding-left: 40px;
+    padding-right: 40px; }
+  .more__information--container li p {
+    width: 300px; } }
 
 .simplification {
   background-color: #f25f3a;
