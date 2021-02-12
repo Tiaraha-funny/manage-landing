@@ -1,3 +1,7 @@
+.header {
+  margin-left: 10%;
+}
+
 .headings {
   background-image: url(../../images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
@@ -10,8 +14,9 @@
 
 @media (min-width: 1000px) {
   .headings {
-    background-position-x: 650px;
-    background-position-y: -176px;
+    background-position-x: 147%;
+    background-position-y: 153%;
+    background-size: 65%;
   }
   
   .header {

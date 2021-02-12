@@ -30,6 +30,10 @@
     margin-right: 80px;
   }
 
+  .main__feature img {
+    width: 1200px;
+  }
+
   .main__headings--products {
     text-align: start;
     align-items: flex-start;
@@ -44,5 +48,6 @@
 
   .products__button {
       margin-top: 50px;
+      text-align: center;
   }
 }

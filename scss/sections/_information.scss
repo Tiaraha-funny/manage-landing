@@ -17,11 +17,12 @@
   }
 
   .more__info--lists {
-    overflow-x: scroll;
+    overflow-x: hidden;
     overflow-y: hidden;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-bottom: 10px;
   }
 
   .more__information--container {
@@ -29,27 +30,29 @@
     width: 90%;
   }
 
-  .more__info--lists:hover ::-webkit-scrollbar {
-    display: block;
+  .more__info--lists:hover {
     overflow-x: scroll;
     overflow-y: hidden;
   }
 
-  ::-webkit-scrollbar {
-    display: none;
-  }
-
+  
   .more__information--container li {
     background-color: #f6f4f4;
     margin-right: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    margin-top: 90px;
   }
 
   .more__information--container li p {
     width: 300px;
   }
 
+  .information__button {
+    margin-top: 20px;
+  }
+
   .more__information--container li img {
+    margin-top: -80px;
   }
 }

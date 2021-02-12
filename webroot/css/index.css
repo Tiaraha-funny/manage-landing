@@ -100,7 +100,8 @@ footer {
   position: absolute;
   right: 13px;
   top: 48px;
-  z-index: 0; }
+  z-index: 0;
+  margin-right: 50px; }
 
 .dropdown__menu img,
 .dropdown__close--menu img {
@@ -138,6 +139,9 @@ footer {
   .dropdown {
     display: none; } }
 
+.header {
+  margin-left: 10%; }
+
 .headings {
   background-image: url(../../images/bg-tablet-pattern.svg);
   background-repeat: no-repeat;
@@ -149,8 +153,9 @@ footer {
 
 @media (min-width: 1000px) {
   .headings {
-    background-position-x: 650px;
-    background-position-y: -176px; }
+    background-position-x: 147%;
+    background-position-y: 153%;
+    background-size: 65%; }
   .header {
     margin-left: 100px; } }
 
@@ -164,6 +169,9 @@ footer {
 
 .navigation__lists--items {
   line-height: 35px; }
+
+.navigation__lists--items a {
+  color: #817e7e; }
 
 .get__start {
   display: block;
@@ -221,6 +229,8 @@ footer {
     margin-top: 100px; }
   .main__feature {
     margin-right: 80px; }
+  .main__feature img {
+    width: 1200px; }
   .main__headings--products {
     text-align: start;
     align-items: flex-start;
@@ -230,7 +240,8 @@ footer {
     text-align: start;
     align-items: flex-start; }
   .products__button {
-    margin-top: 50px; } }
+    margin-top: 50px;
+    text-align: center; } }
 
 .manage {
   text-align: center;
@@ -367,7 +378,6 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    overflow-x: scroll;
     padding-top: 90px; }
   .information__headings {
     margin-bottom: 0; }
@@ -386,27 +396,30 @@ footer {
   .information__headings {
     margin-bottom: 30px; }
   .more__info--lists {
-    overflow-x: scroll;
+    overflow-x: hidden;
     overflow-y: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
+    justify-content: space-between;
+    padding-bottom: 10px; }
   .more__information--container {
     align-items: center;
     width: 90%; }
-  .more__info--lists:hover ::-webkit-scrollbar {
-    display: block;
+  .more__info--lists:hover {
     overflow-x: scroll;
     overflow-y: hidden; }
-  ::-webkit-scrollbar {
-    display: none; }
   .more__information--container li {
     background-color: #f6f4f4;
     margin-right: 20px;
     padding-left: 40px;
-    padding-right: 40px; }
+    padding-right: 40px;
+    margin-top: 90px; }
   .more__information--container li p {
-    width: 300px; } }
+    width: 300px; }
+  .information__button {
+    margin-top: 20px; }
+  .more__information--container li img {
+    margin-top: -80px; } }
 
 .simplification {
   background-color: #f25f3a;

@@ -11,6 +11,10 @@
   line-height: 35px;
 }
 
+.navigation__lists--items a {
+  color: hsl(0, 1%, 50%);
+}
+
 .get__start {
   display: block;
   background-color: hsl(12, 88%, 59%);
