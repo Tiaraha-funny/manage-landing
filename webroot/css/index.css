@@ -88,7 +88,7 @@ footer {
 
 .dropdown {
   position: absolute;
-  right: 10px;
+  right: 40px;
   top: 50px;
   width: 25px;
   height: 25px;
@@ -101,7 +101,7 @@ footer {
   right: 13px;
   top: 48px;
   z-index: 0;
-  margin-right: 50px; }
+  margin-right: 30px; }
 
 .dropdown__menu img,
 .dropdown__close--menu img {
